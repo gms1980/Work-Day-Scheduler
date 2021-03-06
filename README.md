@@ -11,7 +11,7 @@ past events will turn red, present yellow, and future events green.
 *html 
 *css
 
-<img src="super-disco/Develop/Images/Week Day Scheduler.jpg" width="400" height="450">
+<img src="Develop/Images/Week Day Scheduler.jpg" width="400" height="450">
 
 # Website
 https://gms1980.github.io/Work-Day-Scheduler/
