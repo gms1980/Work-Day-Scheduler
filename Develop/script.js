@@ -25,16 +25,43 @@ if (textAreaHour > currentHour) {
     element.classList.add("future")
 }
 
-//Local Storage
-function createItem() {
-	localStorage.setItem('id', 'value'); 
-} 
-createItem("id") // Creates a item named 'nameOfItem' and stores a value of 'value'
+// //Local Storage
 
-function getValue() {
-	return localStorage.getItem('id');  
-} // Gets the value of 'nameOfItem' and returns it
-console.log(getValue()); //'value';
+var taskDataObj = {
+  id: 1,
+  name: "Add localStorage persistence",
+  type: "Web",
+  status: "in progress"
+}
+
+var tasks = [
+    {
+      id: 0800,
+      name: "8:00 a.m.",
+      type: "Web",
+      status: "in progress"
+    },
+    {
+      id: 0900,
+      name: "9:00 a.m.",
+      type: "Web",
+      status: "in progress"
+    },
+    {
+      id: 1000,
+      name: "10:00 a.m.",
+      type: "Web",
+      status: "to do"
+    }
+  ];
+
+  var taskDataObj = {
+    name: taskNameInput,
+    type: taskTypeInput,
+    status: "to do"
+  };
+  console.log(taskDataObj);
+  console.log(taskDataObj.status);
 }
 
 
