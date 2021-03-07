@@ -15,7 +15,7 @@ past events will turn grey, present yellow, and future events green.
 <img src="Develop/Images/Week Day Scheduler.jpg" width="400" height="450">
 
 # Website
-https://gms1980.github.io/Work-Day-Scheduler/.
+https://gms1980.github.io/Work-Day-Scheduler/Develop/index
 
 
 # Made By:
